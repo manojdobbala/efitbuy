@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+.DS_Store
+node_modules
+.idea/
+build/static/js/main.11d78663.js
+build/static/js/main.11d78663.js.map
