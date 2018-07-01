@@ -20,6 +20,12 @@ class LandingPage extends React.Component {
                     <Grid item xs={12} sm={6} md={4} lg={3}>
                         <Card></Card>
                     </Grid>
+                    <Grid item xs={12} sm={6} md={4} lg={3}>
+                        <Card></Card>
+                    </Grid>
+                    <Grid item xs={12} sm={6} md={4} lg={3}>
+                        <Card></Card>
+                    </Grid>
                 </React.Fragment>
             </Grid>
         );
