@@ -15,6 +15,14 @@ import ShoppingBasket from '@material-ui/icons/ShoppingBasket';
 import ThumbDown from '@material-ui/icons/ThumbDown';
 import ThumbUp from '@material-ui/icons/ThumbUp';
 import Typography from '@material-ui/core/Typography';
+import * as bannerImage from '../img/fitbay_cropped.png';
+import * as bannerImage1 from '../img/img_1.jpg';
+import * as bannerImage2 from '../img/img_2.jpg';
+import * as bannerImage3 from '../img/efitbay_japneese.jpg';
+import * as bannerImage4 from '../img/img_4.jpg';
+import * as bannerImage5 from '../img/img_5.jpg';
+import * as bannerImage6 from '../img/img_6.jpg';
+
 
 function TabContainer(props) {
     return (
@@ -69,13 +77,13 @@ class ScrollableTabsButtonForce extends React.Component {
                         <Tab label="Item Seven" icon={<ThumbUp />} />
                     </Tabs>
                 </AppBar>
-                {value === 0 && <TabContainer>Item One</TabContainer>}
-                {value === 1 && <TabContainer>Item Two</TabContainer>}
-                {value === 2 && <TabContainer>Item Three</TabContainer>}
-                {value === 3 && <TabContainer>Item Four</TabContainer>}
-                {value === 4 && <TabContainer>Item Five</TabContainer>}
-                {value === 5 && <TabContainer>Item Six</TabContainer>}
-                {value === 6 && <TabContainer>Item Seven</TabContainer>}
+                {value === 0 && <TabContainer><img src={bannerImage}  className="bannerImage"/></TabContainer>}
+                {value === 1 && <TabContainer><img src={bannerImage1} className="bannerImage1"/></TabContainer>}
+                {value === 2 && <TabContainer><img src={bannerImage2} className="bannerImage2"/></TabContainer>}
+                {value === 3 && <TabContainer><img src={bannerImage3} className="bannerImage3"/></TabContainer>}
+                {value === 4 && <TabContainer><img src={bannerImage4} className="bannerImage4"/></TabContainer>}
+                {value === 5 && <TabContainer><img src={bannerImage5} className="bannerImage5"/></TabContainer>}
+                {value === 6 && <TabContainer><img src={bannerImage6} className="bannerImage6"/></TabContainer>}
             </div>
         );
     }

@@ -13,11 +13,6 @@ class LandingPage extends React.Component {
 
         return (
             <Grid container spacing={24}>
-                <Hidden smDown>
-                    <Grid item xs={12}>
-                        {banner}
-                    </Grid>
-                </Hidden>
                 <React.Fragment>
                     <Grid item xs={12} sm={6} md={4} lg={3}>
                         <Card></Card>
