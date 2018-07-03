@@ -3,17 +3,13 @@ import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
 import Card from './card';
 import '../Homepage.css';
-import * as bannerImage from '../img/efitbay1.jpg';
+import * as bannerImage from '../img/fitbay_cropped.png';
 
 
 class LandingPage extends React.Component {
 
     render() {
-        const banner = (<a href="#nowhere" className="banner">
-                <img src={bannerImage} className="bannerImage"/>
-                <h1 className="bannerText">Efitbay LLC</h1>
-            </a>
-        );
+        const banner = <img src={bannerImage} className="bannerImage"/>;
 
         return (
             <Grid container spacing={24}>
