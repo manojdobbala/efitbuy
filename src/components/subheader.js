@@ -41,7 +41,7 @@ const styles = theme => ({
         flexGrow: 1,
         width: '100%',
         backgroundColor: theme.palette.background.paper,
-    },
+    }
 });
 
 class ScrollableTabsButtonForce extends React.Component {
@@ -78,12 +78,12 @@ class ScrollableTabsButtonForce extends React.Component {
                     </Tabs>
                 </AppBar>
                 {value === 0 && <TabContainer><img src={bannerImage}  className="bannerImage"/></TabContainer>}
-                {value === 1 && <TabContainer><img src={bannerImage1} className="bannerImage1"/></TabContainer>}
-                {value === 2 && <TabContainer><img src={bannerImage2} className="bannerImage2"/></TabContainer>}
-                {value === 3 && <TabContainer><img src={bannerImage3} className="bannerImage3"/></TabContainer>}
-                {value === 4 && <TabContainer><img src={bannerImage4} className="bannerImage4"/></TabContainer>}
-                {value === 5 && <TabContainer><img src={bannerImage5} className="bannerImage5"/></TabContainer>}
-                {value === 6 && <TabContainer><img src={bannerImage6} className="bannerImage6"/></TabContainer>}
+                {value === 1 && <TabContainer><img src={bannerImage1} className="bannerImage"/></TabContainer>}
+                {value === 2 && <TabContainer><img src={bannerImage2} className="bannerImage"/></TabContainer>}
+                {value === 3 && <TabContainer><img src={bannerImage3} className="bannerImage"/></TabContainer>}
+                {value === 4 && <TabContainer><img src={bannerImage4} className="bannerImage"/></TabContainer>}
+                {value === 5 && <TabContainer><img src={bannerImage5} className="bannerImage"/></TabContainer>}
+                {value === 6 && <TabContainer><img src={bannerImage6} className="bannerImage"/></TabContainer>}
             </div>
         );
     }
