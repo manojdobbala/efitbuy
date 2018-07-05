@@ -4,7 +4,7 @@ import Hidden from '@material-ui/core/Hidden';
 import Card from './card';
 import '../Homepage.css';
 import * as bannerImage from '../img/fitbay_cropped.png';
-
+import Breakfast from './breakfast'
 
 class LandingPage extends React.Component {
 
@@ -18,13 +18,13 @@ class LandingPage extends React.Component {
                         <Card></Card>
                     </Grid>
                     <Grid item xs={12} sm={6} md={4} lg={3}>
-                        <Card></Card>
+                        <Breakfast/>
                     </Grid>
                     <Grid item xs={12} sm={6} md={4} lg={3}>
-                        <Card></Card>
+                        <Breakfast/>
                     </Grid>
                     <Grid item xs={12} sm={6} md={4} lg={3}>
-                        <Card></Card>
+                        <Breakfast/>
                     </Grid>
                 </React.Fragment>
             </Grid>

@@ -27,6 +27,9 @@ const styles = {
         marginLeft: -12,
         marginRight: 20,
     },
+    headerfont: {
+        fontFamily: "'Shrikhand', cursive"
+    }
 };
 
 class MenuAppBar extends React.Component {
@@ -68,7 +71,7 @@ class MenuAppBar extends React.Component {
                             <MenuIcon />
                         </IconButton>
                         <Typography variant="title" color="inherit" className={classes.flex}>
-                            Efitbay App
+                           <span className={classes.headerfont}> Efitbay App</span>
                         </Typography>
                         {auth && (
                             <div>

@@ -40,14 +40,14 @@ function SimpleCard(props) {
                         Welcome
                     </Typography>
                     <Typography variant="headline" component="h2">
-                        efitbay rocks
+                        to efitbay breakfast recepies
                     </Typography>
                     <Typography className={classes.pos} color="textSecondary">
-                        next gen fitness
+                        next gen nutrition
                     </Typography>
                     <Typography component="p">
                         well meaning and kindly.<br />
-                        {'"fitness in everthing"'}
+                        {'"nutrition and fitness in everything"'}
                     </Typography>
                 </CardContent>
                 <CardActions>
