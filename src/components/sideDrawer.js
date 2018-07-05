@@ -29,6 +29,9 @@ const styles = {
     },
     headerfont: {
         fontFamily: "'Shrikhand', cursive"
+    },
+    bgColor: {
+        backgroundColor: '#67A7B7'
     }
 };
 
@@ -66,12 +69,12 @@ class MenuAppBar extends React.Component {
                     {/*/>*/}
                 {/*</FormGroup>*/}
                 <AppBar position="static">
-                    <Toolbar>
+                    <Toolbar className={classes.bgColor}>
                         <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
                             <MenuIcon />
                         </IconButton>
                         <Typography variant="title" color="inherit" className={classes.flex}>
-                           <span className={classes.headerfont}> Efitbay App</span>
+                           <span className={classes.headerfont}> efitbay</span>
                         </Typography>
                         {auth && (
                             <div>
