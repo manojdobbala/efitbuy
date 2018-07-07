@@ -14,10 +14,10 @@ import HelpIcon from '@material-ui/icons/Help';
 import Typography from '@material-ui/core/Typography';
 
 import * as bannerImage from '../img/fitbay_cropped.png';
-import * as bannerImage1 from '../img/img_1.jpg';
-import * as bannerImage2 from '../img/img_2.jpg';
-import * as bannerImage3 from '../img/smoothies.jpg';
-import * as bannerImage4 from '../img/fitness.jpg';
+import * as bannerImage1 from '../img/lunch_cropped.png';
+import * as bannerImage2 from '../img/dinner_cropped1.png';
+import * as bannerImage3 from '../img/smoothies_cropped.png';
+import * as bannerImage4 from '../img/fitness_cropped.png';
 import * as bannerImage5 from '../img/img_4.jpg';
 
 

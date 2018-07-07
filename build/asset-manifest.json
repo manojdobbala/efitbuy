@@ -1,13 +1,13 @@
 {
   "main.css": "static/css/main.b2258b52.css",
   "main.css.map": "static/css/main.b2258b52.css.map",
-  "main.js": "static/js/main.5e784092.js",
-  "main.js.map": "static/js/main.5e784092.js.map",
+  "main.js": "static/js/main.702c15db.js",
+  "main.js.map": "static/js/main.702c15db.js.map",
+  "static/media/dinner_cropped1.png": "static/media/dinner_cropped1.3d642a49.png",
   "static/media/efitbay_japneese.jpg": "static/media/efitbay_japneese.98d192e7.jpg",
   "static/media/fitbay_cropped.png": "static/media/fitbay_cropped.b4d5ae88.png",
-  "static/media/fitness.jpg": "static/media/fitness.5360a928.jpg",
-  "static/media/img_1.jpg": "static/media/img_1.68a21548.jpg",
-  "static/media/img_2.jpg": "static/media/img_2.e8fe3fd6.jpg",
+  "static/media/fitness_cropped.png": "static/media/fitness_cropped.3d548e42.png",
   "static/media/img_4.jpg": "static/media/img_4.ad2a9b5e.jpg",
-  "static/media/smoothies.jpg": "static/media/smoothies.3d5d13f3.jpg"
+  "static/media/lunch_cropped.png": "static/media/lunch_cropped.f55ceee4.png",
+  "static/media/smoothies_cropped.png": "static/media/smoothies_cropped.bb8b42a2.png"
 }
