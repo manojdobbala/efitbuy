@@ -15,6 +15,7 @@ import Menu from '@material-ui/core/Menu';
 import pink from '@material-ui/core/colors/pink';
 import green from '@material-ui/core/colors/green';
 import Avatar from '@material-ui/core/Avatar';
+import SearchBar from 'material-ui-search-bar'
 
 const styles = {
     root: {
@@ -76,6 +77,17 @@ class MenuAppBar extends React.Component {
                         <Typography variant="title" color="inherit" className={classes.flex}>
                            <span className={classes.headerfont}> efitbay</span>
                         </Typography>
+
+                        <SearchBar
+                            onChange={() => console.log('onChange')}
+                            onRequestSearch={() => console.log('onRequestSearch')}
+                            style={{
+                                margin: '0 auto',
+                                width: '40%',
+                                height: '38px'
+                            }}
+                        />
+
                         {auth && (
                             <div>
                                 <IconButton
