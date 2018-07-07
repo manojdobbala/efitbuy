@@ -31,7 +31,7 @@ const styles = {
         fontFamily: "'Shrikhand', cursive"
     },
     bgColor: {
-        backgroundColor: '#67A7B7'
+        backgroundColor: '#282828'
     }
 };
 
